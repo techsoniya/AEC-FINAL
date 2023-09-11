@@ -11,7 +11,7 @@ type Chopstick struct{
 
 func main() {
 	var num int
-	fmt.Print("enter number:")
+	fmt.Print("enter number of philosophers:")
 	fmt.Scan(& num)
 
 	var wg sync.WaitGroup
