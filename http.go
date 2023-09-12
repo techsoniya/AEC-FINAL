@@ -1,16 +1,16 @@
 package main
 
 import (
-"encoding/json"
-"fmt"
-"net/http"
+	"encoding/json"
+	"fmt"
+	"net/http"
 )
 
 type Post struct {
-UserID int `json:"userId"`
-ID int `json:"id"`
-Title string `json:"title"`
-Body string `json:"body"`
+	UserID int `json:"userId"`
+	ID int `json:"id"`
+	Title string `json:"title"`
+	Body string `json:"body"`
 }
 
 func main() {
